@@ -12,7 +12,7 @@ Twitter: [@FGIHON](https://twitter.com/FGIHON)
 公式サイト: https://gihon.fuchu.cf/
 
 
-## License
+# License
 
 GIHONのファイル群は[クリエイティブ・コモンズ・ライセンス(表示4.0国際)](https://creativecommons.org/licenses/by/4.0/deed.ja)で提供しています。
 
