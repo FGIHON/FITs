@@ -1,2 +1,3 @@
-# About
 ![FITs](/images/FITs.jpeg)
+
+#About
