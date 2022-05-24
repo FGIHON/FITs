@@ -6,3 +6,6 @@
 
 # GIHONについて
 GIHONは、デジタル技術を通して当校生徒会の活動をより充実したものにするサポートを行う組織です。
+
+Twitter: [@FGIHON](https://twitter.com/FGIHON)
+公式サイト: gihon.fuchu.cf
