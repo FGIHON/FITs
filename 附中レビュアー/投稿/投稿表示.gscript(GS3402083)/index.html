@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TWEETS</title>
+</head>
+
+<body>
+  <style>
+.name {
+font-size: smaller; color: #696969;
+}
+.vote{
+color:#696969
+}
+body {
+ font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+}
+  </style>
+   <div id="gasbox"></div>
+
+  <script>
+   //コード.gsのgetSS()の実行結果を<div id="gasbox"></div>に挿入
+   gasbox.innerHTML = <?= getSS(); ?>;
+  </script>
+</body>
+
+</html>
