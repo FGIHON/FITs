@@ -9,7 +9,7 @@ GIHONは、デジタル技術を通して当校生徒会の活動をより充実
 
 Twitter: [@FGIHON](https://twitter.com/FGIHON)
 
-公式サイト: https://gihon.fuchu.cf/
+公式サイト: https://gihon.fuchu.cf/ (当校内部のみ)
 
 
 # License
