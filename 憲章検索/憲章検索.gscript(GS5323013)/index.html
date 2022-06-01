@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <base target="_top">
+  <title>憲章検索</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search {
+      display: flex;
+      width: 70%;
+      margin: 10px;
+    }
+
+    .search input[type=text] {
+      width: 100%;
+      font-size: 20px;
+      padding: 0 6px;
+      color: #474747;
+      border: 2px solid #474747;
+      border-radius: 3px 0 0 3px;
+      outline: none;
+    }
+
+    .search button[type=submit] {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #FFF;
+      background: #474747;
+      border: 2px solid #474747;
+      border-radius: 0 3px 3px 0;
+      cursor: pointer;
+    }
+
+    .tomato input[type=text] {
+      border-color: #ff6347;
+    }
+
+    .tomato button[type=submit] {
+      border-color: #ff6347;
+      background: #ff6347;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center;">憲章検索</h1>
+
+  <div class="container">
+  
+    <div class="search tomato">
+      <input type="text" placeholder="AND検索やOR検索はできません" id="key">
+      <button type="submit" onclick="showresult();">🔎</button>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div id="result"></div>
+  <script>
+    function showresult() {
+      var textbox = document.getElementById("key").value;
+      result.innerHTML = '<iframe width="100%" height="500px" frameborder="0" src="https://script.google.com/a/macros/as.niigata-u.ac.jp/s/AKfycbznNunUcwb29baBQRhQmpquCRIjn37xlXtrb4T2HCYRD9Rl9shf9Gq20JokAc9dg-8h/exec?kywd=' + textbox + '"></iframe>';
+    };
+  </script>
+</body>
+
+</html>
